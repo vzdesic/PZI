@@ -1,0 +1,83 @@
+﻿@model jQueryDemo.EFModel.Predavanja
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Predavanja</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PredavacID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PredavacID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Naslov)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Naslov)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Opis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Opis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SmjerID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SmjerID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VrijemeOdrzavanja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VrijemeOdrzavanja)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DvoranaID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DvoranaID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipPredavanjaID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipPredavanjaID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Trajanje)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Trajanje)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

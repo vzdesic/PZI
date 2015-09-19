@@ -1,0 +1,99 @@
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\Zadatak.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\Zadatak.pdb
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\Antlr3.Runtime.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.AspNet.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.Core.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.OAuth.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.OpenId.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\EntityFramework.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\Microsoft.Web.Infrastructure.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\Newtonsoft.Json.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Net.Http.Formatting.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Helpers.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Http.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Http.WebHost.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Mvc.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Optimization.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Razor.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.WebPages.Deployment.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.WebPages.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.WebPages.Razor.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\WebGrease.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\WebMatrix.Data.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\WebMatrix.WebData.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\EntityFramework.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\Newtonsoft.Json.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Net.Http.Formatting.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Helpers.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Http.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Http.WebHost.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Mvc.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.Razor.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.WebPages.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.WebPages.Deployment.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\System.Web.WebPages.Razor.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\WebMatrix.Data.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\WebMatrix.WebData.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.AspNet.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.Core.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.OAuth.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.OpenId.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\VediProjects\Combis\Zadatak\Zadatak\obj\Debug\Zadatak.csprojResolveAssemblyReference.cache
+D:\VediProjects\Combis\Zadatak\Zadatak\obj\Debug\Zadatak.dll
+D:\VediProjects\Combis\Zadatak\Zadatak\obj\Debug\Zadatak.pdb
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\Zadatak.dll.config
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\Zadatak.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\Zadatak.pdb
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\Antlr3.Runtime.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.AspNet.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.Core.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.OAuth.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.OpenId.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\EntityFramework.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\Microsoft.Web.Infrastructure.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\Newtonsoft.Json.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Net.Http.Formatting.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Helpers.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Http.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Http.WebHost.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Mvc.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Optimization.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Razor.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.WebPages.Deployment.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.WebPages.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.WebPages.Razor.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\WebGrease.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\WebMatrix.Data.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\WebMatrix.WebData.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\EntityFramework.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\Newtonsoft.Json.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Net.Http.Formatting.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Helpers.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Http.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Http.WebHost.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Mvc.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.Razor.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.WebPages.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.WebPages.Deployment.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\System.Web.WebPages.Razor.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\WebMatrix.Data.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\WebMatrix.WebData.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.AspNet.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.Core.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.OAuth.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.OpenId.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\obj\Debug\Zadatak.csprojResolveAssemblyReference.cache
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\obj\Debug\Zadatak.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\1_jqGrid\Zadatak\obj\Debug\Zadatak.pdb

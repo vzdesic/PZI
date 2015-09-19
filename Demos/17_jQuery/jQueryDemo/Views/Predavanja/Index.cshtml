@@ -1,0 +1,112 @@
+﻿@model IEnumerable<jQueryDemo.EFModel.Predavanja>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PredavacID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Naslov)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Opis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SmjerID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VrijemeOdrzavanja)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DvoranaID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipPredavanjaID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Trajanje)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PredavacID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Naslov)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Opis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SmjerID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VrijemeOdrzavanja)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DvoranaID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipPredavanjaID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Trajanje)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID }) |
+            <a href="#" id="predavac_@(item.PredavacID)" data-id="@(item.ID)">Predavači</a>
+        </td>
+    </tr>
+}
+
+</table>
+
+<div id="listaPredavaca">Rezultat</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var test = [];
+        test.push('param 1');
+        test.push('param 2');
+
+        $("[id^='predavac_']").click(function () {
+            $.ajax({
+                url: '/Predavaci/Lista',
+                type: 'GET',
+                traditional: true,
+                data: { arr: test, someBool: true, someInt: 1, someString: '', id: $(this).attr('id') },
+                beforeSend: function () {
+                    //alert("Prolazi klik!");
+                },
+                success: function (result) {
+                    $("#listaPredavaca").html('');
+                    result.forEach(function (entry) {
+                        $("#listaPredavaca").append("<p>" + entry.Ime + " " + entry.Prezime + "</p>");
+                    });
+                    //$("#listaPredavaca").html(result);
+                },
+                error: function ( jqXHR, textStatus, errorThrown) {
+                    alert(jqXHR.responseText);
+                },
+                complete: function () {
+                    //alert("Complete!");
+                }
+            });
+        });
+    });
+</script>

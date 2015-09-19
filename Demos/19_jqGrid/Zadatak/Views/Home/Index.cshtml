@@ -1,0 +1,118 @@
+﻿@{
+    ViewBag.Title = "Data from CSV";
+}
+
+    <div>
+        <input type="button" id="load" value="Učitaj" />
+        <input type="button" id="save" value="Spremi" />
+    </div>
+
+    <table id="jqTable" class="scroll"></table>
+    <div id="jqTablePager" />
+   
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#load").click(function () {
+                $("#jqTable").jqGrid('setGridParam', { datatype: 'json' }).trigger('reloadGrid');
+            });
+
+            $("#save").click(function () {
+                var gridRows = $("#jqTable").jqGrid('getRowData');
+                var rowData = new Array();
+                for (var i = 0; i < gridRows.length; i++) {
+                    var row = gridRows[i];
+                    if (row.IsValidPostCode == "TRUE") {
+                        rowData.push($.param(row));
+                    }
+                }
+                var dataToSend = JSON.stringify(rowData);
+
+                $.ajax({
+                    type: "POST",
+                    cache: false,
+                    url: "/Home/SavePersons",
+                    data: { lista: dataToSend },
+                    dataType: "json",
+                    success: function (data) {
+                        if (data == 'ERROR')
+                        {
+                            alert(data);
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        alert(errorThrown);
+                    }
+                });
+            });
+
+            $("#jqTable").jqGrid({
+                url: "/Home/LoadImenikData",
+                datatype: "local",
+                mtype: "POST",
+
+                colNames: ["Ime", "Prezime", "Poštanski broj", "IsValidPostCode", "Grad", "Telefon"],
+
+                colModel: [
+                { name: "Name", index: "Name", width: 150, align: "left" },
+                { name: "Surname", index: "Surname", width: 150, align: "left" },
+                { name: "PostCode", index: "PostCode", width: 200, align: "left" },
+                { name: "IsValidPostCode", index: "IsValidPostCode", width: 100, hidden: true },
+                { name: "City", index: "City", width: 150, align: "left" },
+                { name: "Phone", index: "Phone", width: 200, align: "left" }],
+
+                // Paging
+                pager: $("#jqTablePager"),
+                rowNum: 50,
+                rowList: [50, 100, 200],
+                viewrecords: true, // Specify if "total number of records" is displayed
+
+                multiselect: false,
+                rownumbers: true,
+                rownumWidth: 50,
+                jsonReader: {
+                    root: "rows",
+                    page: "page",
+                    total: "total",
+                    records: "records",
+                    repeatitems: true,
+                    userdata: "userdata"
+                },
+
+                afterInsertRow: function (rowid, rowdata) {
+                    if (rowdata.IsValidPostCode == "FALSE") {
+                        $(this).jqGrid('setRowData', rowid, false, { color: 'red' });
+                    }
+                },
+                onSelectRow: function (id) {
+                  
+                },
+                gridComplete: function () {
+                   
+                },
+                loadComplete: function (data) {
+                   
+                },
+              
+                // Grid caption
+                caption: "Imenik"
+            }).navGrid("#jqTablePager",
+                { refresh: true, add: false, edit: false, del: false, search: false },
+                    {}, // settings for edit
+                    {}, // settings for add
+                    {} // settings for delete
+                    //{sopt: ["cn"]} // Search options. Some options can be set on column level
+             );
+        });
+    </script>
+
+@section scripts {
+       <link rel="stylesheet" href="~/Content/jquery-grid/ui.jqgrid.css" type="text/css" />
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+        <script src="//code.jquery.com/jquery-1.9.1.js" type="text/javascript"></script>
+        <script src="~/Scripts/jquery-grid/grid.locale-hr.js" type="text/javascript"></script>
+        <script src="~/Scripts/jquery-grid/jquery.jqGrid.min.js" type="text/javascript"></script>
+        <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>
+    }
+
+

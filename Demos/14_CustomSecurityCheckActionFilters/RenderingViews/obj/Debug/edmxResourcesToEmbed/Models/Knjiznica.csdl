@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KnjiznicaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Clanovi">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Prezime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DatumRodenja" Type="DateTime" Precision="3" />
+    <Property Name="OIB" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ClanarinaVrijediDo" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Posudbes" Relationship="Self.FK_Posudbe_Clanovi" FromRole="Clanovi" ToRole="Posudbe" />
+  </EntityType>
+  <EntityType Name="Djelatnici">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Prezime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DatumRodenja" Type="DateTime" Precision="3" />
+    <Property Name="OIB" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DatumZaposlenja" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Posudbes" Relationship="Self.FK_Posudbe_Djelatnici" FromRole="Djelatnici" ToRole="Posudbe" />
+  </EntityType>
+  <EntityType Name="Knjige">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Naslov" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PisacID" Type="Int32" Nullable="false" />
+    <Property Name="Kolicina" Type="Int32" Nullable="false" />
+    <Property Name="ZanrID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Pisci" Relationship="Self.FK_Knjige_Pisci" FromRole="Knjige" ToRole="Pisci" />
+    <NavigationProperty Name="Zanr" Relationship="Self.FK_Knjige_Zanr" FromRole="Knjige" ToRole="Zanr" />
+    <NavigationProperty Name="Posudbes" Relationship="Self.FK_Posudbe_Knjige" FromRole="Knjige" ToRole="Posudbe" />
+    <Property Name="SlikaURL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Opis" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Cijena" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Pisci">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Prezime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Država" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Knjiges" Relationship="Self.FK_Knjige_Pisci" FromRole="Pisci" ToRole="Knjige" />
+  </EntityType>
+  <EntityType Name="Posudbe">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClanID" Type="Int32" Nullable="false" />
+    <Property Name="KnjigaID" Type="Int32" Nullable="false" />
+    <Property Name="Datum" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DjelatnikID" Type="Int32" Nullable="false" />
+    <Property Name="Vraceno" Type="Boolean" />
+    <NavigationProperty Name="Clanovi" Relationship="Self.FK_Posudbe_Clanovi" FromRole="Posudbe" ToRole="Clanovi" />
+    <NavigationProperty Name="Djelatnici" Relationship="Self.FK_Posudbe_Djelatnici" FromRole="Posudbe" ToRole="Djelatnici" />
+    <NavigationProperty Name="Knjige" Relationship="Self.FK_Posudbe_Knjige" FromRole="Posudbe" ToRole="Knjige" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Zanr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Knjiges" Relationship="Self.FK_Knjige_Zanr" FromRole="Zanr" ToRole="Knjige" />
+  </EntityType>
+  <Association Name="FK_Posudbe_Clanovi">
+    <End Role="Clanovi" Type="Self.Clanovi" Multiplicity="1" />
+    <End Role="Posudbe" Type="Self.Posudbe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clanovi">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Posudbe">
+        <PropertyRef Name="ClanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posudbe_Djelatnici">
+    <End Role="Djelatnici" Type="Self.Djelatnici" Multiplicity="1" />
+    <End Role="Posudbe" Type="Self.Posudbe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Djelatnici">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Posudbe">
+        <PropertyRef Name="DjelatnikID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Knjige_Pisci">
+    <End Role="Pisci" Type="Self.Pisci" Multiplicity="1" />
+    <End Role="Knjige" Type="Self.Knjige" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pisci">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Knjige">
+        <PropertyRef Name="PisacID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Knjige_Zanr">
+    <End Role="Zanr" Type="Self.Zanr" Multiplicity="1" />
+    <End Role="Knjige" Type="Self.Knjige" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zanr">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Knjige">
+        <PropertyRef Name="ZanrID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posudbe_Knjige">
+    <End Role="Knjige" Type="Self.Knjige" Multiplicity="1" />
+    <End Role="Posudbe" Type="Self.Posudbe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Knjige">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Posudbe">
+        <PropertyRef Name="KnjigaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="KnjiznicaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clanovis" EntityType="Self.Clanovi" />
+    <EntitySet Name="Djelatnicis" EntityType="Self.Djelatnici" />
+    <EntitySet Name="Knjiges" EntityType="Self.Knjige" />
+    <EntitySet Name="Piscis" EntityType="Self.Pisci" />
+    <EntitySet Name="Posudbes" EntityType="Self.Posudbe" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Zanrs" EntityType="Self.Zanr" />
+    <AssociationSet Name="FK_Posudbe_Clanovi" Association="Self.FK_Posudbe_Clanovi">
+      <End Role="Clanovi" EntitySet="Clanovis" />
+      <End Role="Posudbe" EntitySet="Posudbes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posudbe_Djelatnici" Association="Self.FK_Posudbe_Djelatnici">
+      <End Role="Djelatnici" EntitySet="Djelatnicis" />
+      <End Role="Posudbe" EntitySet="Posudbes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Knjige_Pisci" Association="Self.FK_Knjige_Pisci">
+      <End Role="Pisci" EntitySet="Piscis" />
+      <End Role="Knjige" EntitySet="Knjiges" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Knjige_Zanr" Association="Self.FK_Knjige_Zanr">
+      <End Role="Zanr" EntitySet="Zanrs" />
+      <End Role="Knjige" EntitySet="Knjiges" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posudbe_Knjige" Association="Self.FK_Posudbe_Knjige">
+      <End Role="Knjige" EntitySet="Knjiges" />
+      <End Role="Posudbe" EntitySet="Posudbes" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(KnjiznicaModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(KnjiznicaModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

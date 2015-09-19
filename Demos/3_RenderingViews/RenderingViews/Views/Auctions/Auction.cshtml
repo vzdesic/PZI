@@ -1,0 +1,16 @@
+﻿@model RenderingViews.Models.Knjige
+
+<br/>
+<br/>
+<div class="title">@Model.Naslov</div>
+<div class="overview">
+    <img src="@(Url.Content(Model.SlikaURL))" alt="@Model.Naslov" />
+    <p>
+        <strong>Trenutna cijena: </strong>
+        <span class="price">@Model.Cijena</span>
+    </p>
+</div>
+<h3>Detaljni opis knjige: </h3>
+<div class="description">
+    @Model.Opis
+</div>

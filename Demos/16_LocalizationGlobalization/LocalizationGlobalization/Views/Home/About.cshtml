@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+@model LocalizationGlobalization.Models.AboutModel
+@using LocalizationGlobalization.Views.Home.App_LocalResources
+
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>@About.Contact</p>
+
+<form action="#">
+    @Html.EditorForModel()
+    <br />
+    <input type="submit" value="@About.Save" />
+
+    <br /><br />
+    <!-- sumarni prikaz grešaka -->
+    @Html.ValidationSummary()
+</form>

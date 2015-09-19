@@ -1,0 +1,36 @@
+﻿@model RoutingDemo.EntityFramework.Studenti
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Studenti</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Ime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Ime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Prezime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Prezime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OIB)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OIB)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,21 @@
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+	</script>
+</head>
+<body>
+	<h1>Partial Rendering Demo</h1>
+	<input type="button" id="prikaz" value="Prikaži" />
+	<br />
+	<div id="container"></div>
+	
+
+	<script type="text/javascript">
+ 		$(document).ready(function(){
+			$("#prikaz").click(function(){
+				$("#container").load('ajax_content.html');
+			});
+		});
+	</script>
+</body>
+</html>

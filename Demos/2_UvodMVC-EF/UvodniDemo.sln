@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UvodniDemo", "UvodniDemo\UvodniDemo.csproj", "{061F4A81-B2FD-4A98-BB3D-06410E8ECE4E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://citus.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = UvodniDemo\\UvodniDemo.csproj
+		SccProjectName1 = UvodniDemo
+		SccLocalPath1 = UvodniDemo
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{061F4A81-B2FD-4A98-BB3D-06410E8ECE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061F4A81-B2FD-4A98-BB3D-06410E8ECE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061F4A81-B2FD-4A98-BB3D-06410E8ECE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061F4A81-B2FD-4A98-BB3D-06410E8ECE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

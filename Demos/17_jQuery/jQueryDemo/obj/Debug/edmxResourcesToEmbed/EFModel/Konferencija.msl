@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KonferencijaModelStoreContainer" CdmEntityContainer="KonferencijaEntities">
+    <EntitySetMapping Name="Hotelis">
+      <EntityTypeMapping TypeName="KonferencijaModel.Hoteli">
+        <MappingFragment StoreEntitySet="Hoteli">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Adresa" ColumnName="Adresa" />
+          <ScalarProperty Name="GradID" ColumnName="GradID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Polaznicis">
+      <EntityTypeMapping TypeName="KonferencijaModel.Polaznici">
+        <MappingFragment StoreEntitySet="Polaznici">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="DatumRodenja" ColumnName="DatumRodenja" />
+          <ScalarProperty Name="OIB" ColumnName="OIB" />
+          <ScalarProperty Name="Adresa" ColumnName="Adresa" />
+          <ScalarProperty Name="GradID" ColumnName="GradID" />
+          <ScalarProperty Name="Spol" ColumnName="Spol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Predavacis">
+      <EntityTypeMapping TypeName="KonferencijaModel.Predavaci">
+        <MappingFragment StoreEntitySet="Predavaci">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="DatumRodenja" ColumnName="DatumRodenja" />
+          <ScalarProperty Name="OIB" ColumnName="OIB" />
+          <ScalarProperty Name="Adresa" ColumnName="Adresa" />
+          <ScalarProperty Name="GradID" ColumnName="GradID" />
+          <ScalarProperty Name="Spol" ColumnName="Spol" />
+          <ScalarProperty Name="TvrtkaID" ColumnName="TvrtkaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Predavanjas">
+      <EntityTypeMapping TypeName="KonferencijaModel.Predavanja">
+        <MappingFragment StoreEntitySet="Predavanja">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PredavacID" ColumnName="PredavacID" />
+          <ScalarProperty Name="Naslov" ColumnName="Naslov" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+          <ScalarProperty Name="SmjerID" ColumnName="SmjerID" />
+          <ScalarProperty Name="VrijemeOdrzavanja" ColumnName="VrijemeOdrzavanja" />
+          <ScalarProperty Name="DvoranaID" ColumnName="DvoranaID" />
+          <ScalarProperty Name="TipPredavanjaID" ColumnName="TipPredavanjaID" />
+          <ScalarProperty Name="Trajanje" ColumnName="Trajanje" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrijaveNaPredavanjas">
+      <EntityTypeMapping TypeName="KonferencijaModel.PrijaveNaPredavanja">
+        <MappingFragment StoreEntitySet="PrijaveNaPredavanja">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PredavanjeID" ColumnName="PredavanjeID" />
+          <ScalarProperty Name="PolaznikID" ColumnName="PolaznikID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Racunis">
+      <EntityTypeMapping TypeName="KonferencijaModel.Racuni">
+        <MappingFragment StoreEntitySet="Racuni">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Broj" ColumnName="Broj" />
+          <ScalarProperty Name="PolaznikID" ColumnName="PolaznikID" />
+          <ScalarProperty Name="Placeno" ColumnName="Placeno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sDvoranes">
+      <EntityTypeMapping TypeName="KonferencijaModel.sDvorane">
+        <MappingFragment StoreEntitySet="sDvorane">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sGradovis">
+      <EntityTypeMapping TypeName="KonferencijaModel.sGradovi">
+        <MappingFragment StoreEntitySet="sGradovi">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="PostanskiBroj" ColumnName="PostanskiBroj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sSmjerovis">
+      <EntityTypeMapping TypeName="KonferencijaModel.sSmjerovi">
+        <MappingFragment StoreEntitySet="sSmjerovi">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sTipoviPredavanjas">
+      <EntityTypeMapping TypeName="KonferencijaModel.sTipoviPredavanja">
+        <MappingFragment StoreEntitySet="sTipoviPredavanja">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sTvrtkes">
+      <EntityTypeMapping TypeName="KonferencijaModel.sTvrtke">
+        <MappingFragment StoreEntitySet="sTvrtke">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Adresa" ColumnName="Adresa" />
+          <ScalarProperty Name="GradID" ColumnName="GradID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="KonferencijaModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T">
+      <EntityTypeMapping TypeName="KonferencijaModel.T">
+        <MappingFragment StoreEntitySet="T">
+          <ScalarProperty Name="a" ColumnName="a" />
+          <ScalarProperty Name="b" ColumnName="b" />
+          <ScalarProperty Name="c" ColumnName="c" />
+          <ScalarProperty Name="d" ColumnName="d" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vComplexGetdateEtcs">
+      <EntityTypeMapping TypeName="KonferencijaModel.vComplexGetdateEtc">
+        <MappingFragment StoreEntitySet="vComplexGetdateEtc">
+          <ScalarProperty Name="a" ColumnName="a" />
+          <ScalarProperty Name="b" ColumnName="b" />
+          <ScalarProperty Name="c" ColumnName="c" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vPregledTvrtkis">
+      <EntityTypeMapping TypeName="KonferencijaModel.vPregledTvrtki">
+        <MappingFragment StoreEntitySet="vPregledTvrtki">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Adresa" ColumnName="Adresa" />
+          <ScalarProperty Name="GradID" ColumnName="GradID" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="Expr2" ColumnName="Expr2" />
+          <ScalarProperty Name="PostanskiBroj" ColumnName="PostanskiBroj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VTs">
+      <EntityTypeMapping TypeName="KonferencijaModel.VT">
+        <MappingFragment StoreEntitySet="VT">
+          <ScalarProperty Name="a" ColumnName="a" />
+          <ScalarProperty Name="b" ColumnName="b" />
+          <ScalarProperty Name="c" ColumnName="c" />
+          <ScalarProperty Name="d" ColumnName="d" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vTvrtkeGroupBies">
+      <EntityTypeMapping TypeName="KonferencijaModel.vTvrtkeGroupBy">
+        <MappingFragment StoreEntitySet="vTvrtkeGroupBy">
+          <ScalarProperty Name="Broj_firmi" ColumnName="Broj firmi" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Grad" ColumnName="Grad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="KonferencijaModel.Store.fjaPregledPredavanja" FunctionImportName="fjaPregledPredavanja">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="KonferencijaModel.fjaPregledPredavanja_Result">
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Naslov" ColumnName="Naslov" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="KonferencijaModel.Store.fjaPregledTvrtki" FunctionImportName="fjaPregledTvrtki">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="KonferencijaModel.fjaPregledTvrtki_Result">
+          <ScalarProperty Name="Broj_firmi" ColumnName="Broj firmi" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Grad" ColumnName="Grad" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PregledPredavanja" FunctionName="KonferencijaModel.Store.PregledPredavanja">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="KonferencijaModel.PregledPredavanja_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PredavacID" ColumnName="PredavacID" />
+          <ScalarProperty Name="Naslov" ColumnName="Naslov" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+          <ScalarProperty Name="SmjerID" ColumnName="SmjerID" />
+          <ScalarProperty Name="VrijemeOdrzavanja" ColumnName="VrijemeOdrzavanja" />
+          <ScalarProperty Name="DvoranaID" ColumnName="DvoranaID" />
+          <ScalarProperty Name="TipPredavanjaID" ColumnName="TipPredavanjaID" />
+          <ScalarProperty Name="Trajanje" ColumnName="Trajanje" />
+          <ScalarProperty Name="ID1" ColumnName="ID1" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Opis1" ColumnName="Opis1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="KonferencijaModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="KonferencijaModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="KonferencijaModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="KonferencijaModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="KonferencijaModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="KonferencijaModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="KonferencijaModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="KonferencijaModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="KonferencijaModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="spPregledPredavaca" FunctionName="KonferencijaModel.Store.spPregledPredavaca">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="KonferencijaModel.spPregledPredavaca_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="DatumRodenja" ColumnName="DatumRodenja" />
+          <ScalarProperty Name="OIB" ColumnName="OIB" />
+          <ScalarProperty Name="Adresa" ColumnName="Adresa" />
+          <ScalarProperty Name="GradID" ColumnName="GradID" />
+          <ScalarProperty Name="Spol" ColumnName="Spol" />
+          <ScalarProperty Name="TvrtkaID" ColumnName="TvrtkaID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

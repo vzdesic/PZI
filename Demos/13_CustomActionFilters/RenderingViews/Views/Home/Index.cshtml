@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+
+<p><a href="~/Auctions/Auction/4">Knjiga na aukciji</a></p>
+
+<input type="button" id="loadPartial" onclick="showAuction(4);" value="Load partial"/>
+
+<div id="container"></div>
+
+<div id="Description"></div>
+<div id="CurrentPrice"></div>
+<div id="Title"></div>
+<div>
+    <a id="PictureLink" target="_blank" href="#">Picture</a>
+</div>
+<div>
+    <img id="PictureItself" alt="Slika" src="" />
+</div>
+<input type="button" id="loadJson" onclick="updateKnjigaInfo(4);" value="Load JSON" />
+
+<script type="text/javascript">
+    function showAuction(auctionId) {
+        // One way:
+        //$('#container').load('/Auctions/Auction/' + auctionId);
+
+        // Can be done this way too:
+        $('#container').load('@Url.Action("Auction", "Auctions")/' + auctionId);
+    }
+
+    function updateKnjigaInfo(knjigaId) {
+        $.ajax({
+            url: "/Auctions/JsonKnjiga/" + knjigaId,
+            type: "GET",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            beforeSend: function( xhr ) {
+                //alert(this.url);
+            },
+            success: function (result) {
+                $('#Title').html(result.Naslov);
+                $('#Description').html(result.Opis);
+                $('#CurrentPrice').html(result.Cijena);
+                $('#PictureLink').attr("href", result.SlikaURL.substring(1));
+                $('#PictureItself').attr("src", result.SlikaURL.substring(1));
+            },
+            complete: function (jqXhr, textStatus) {
+                //alert(jqXhr.errorCode + "\n" + textStatus);
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                //alert(jqXhr + "\n" + textStatus + "\n" + errorThrown);
+            }
+        });
+    }
+</script>

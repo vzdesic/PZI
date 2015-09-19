@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Knjige";
+}
+
+@model IEnumerable<RenderingViews.Models.Knjige>
+<h1>Knjižnica</h1>
+<section class="auctions">
+    @foreach (var knjiga in Model)
+    {
+        <section class="auctions">
+            @Html.Partial("Knjiga", knjiga)
+        </section>
+    }
+</section>

@@ -1,0 +1,99 @@
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\UvodniDemo.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\UvodniDemo.pdb
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\Antlr3.Runtime.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.AspNet.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.Core.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.OAuth.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.OpenId.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\EntityFramework.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\Newtonsoft.Json.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Net.Http.Formatting.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Helpers.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Http.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Http.WebHost.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Mvc.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Optimization.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Razor.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.WebPages.Deployment.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.WebPages.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.WebPages.Razor.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\WebGrease.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\WebMatrix.Data.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\WebMatrix.WebData.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\EntityFramework.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\Newtonsoft.Json.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Net.Http.Formatting.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Helpers.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Http.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Http.WebHost.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Mvc.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.Razor.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.WebPages.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.WebPages.Deployment.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\System.Web.WebPages.Razor.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\WebMatrix.Data.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\WebMatrix.WebData.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.AspNet.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.Core.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.OAuth.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.OpenId.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\obj\Debug\UvodniDemo.csprojResolveAssemblyReference.cache
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\obj\Debug\UvodniDemo.dll
+C:\Bootcamp\04 CET\Demos\UvodniDemo\UvodniDemo\obj\Debug\UvodniDemo.pdb
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\UvodniDemo.dll.config
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\UvodniDemo.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\UvodniDemo.pdb
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\Antlr3.Runtime.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.AspNet.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.Core.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.OAuth.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.OpenId.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\EntityFramework.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\Newtonsoft.Json.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Net.Http.Formatting.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Helpers.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Http.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Http.WebHost.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Mvc.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Optimization.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Razor.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.WebPages.Deployment.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.WebPages.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.WebPages.Razor.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\WebGrease.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\WebMatrix.Data.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\WebMatrix.WebData.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\EntityFramework.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\Newtonsoft.Json.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Net.Http.Formatting.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Helpers.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Http.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Http.WebHost.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Mvc.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.Razor.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.WebPages.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.WebPages.Deployment.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\System.Web.WebPages.Razor.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\WebMatrix.Data.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\WebMatrix.WebData.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.AspNet.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.Core.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.OAuth.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.OpenId.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\obj\Debug\UvodniDemo.csprojResolveAssemblyReference.cache
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\obj\Debug\UvodniDemo.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\2_UvodMVC-EF\UvodniDemo\obj\Debug\UvodniDemo.pdb

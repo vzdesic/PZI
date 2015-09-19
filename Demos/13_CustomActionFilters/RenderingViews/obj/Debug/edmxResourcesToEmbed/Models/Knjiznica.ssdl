@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KnjiznicaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Clanovi">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ime" Type="varchar" MaxLength="50" />
+    <Property Name="Prezime" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DatumRodenja" Type="datetime" />
+    <Property Name="OIB" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="ClanarinaVrijediDo" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Djelatnici">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ime" Type="varchar" MaxLength="50" />
+    <Property Name="Prezime" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DatumRodenja" Type="datetime" />
+    <Property Name="OIB" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="DatumZaposlenja" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Knjige">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Naslov" Type="varchar(max)" Nullable="false" />
+    <Property Name="PisacID" Type="int" Nullable="false" />
+    <Property Name="Kolicina" Type="int" Nullable="false" />
+    <Property Name="ZanrID" Type="int" Nullable="false" />
+    <Property Name="SlikaURL" Type="varchar" MaxLength="50" />
+    <Property Name="Opis" Type="varchar(max)" />
+    <Property Name="Cijena" Type="money" />
+  </EntityType>
+  <EntityType Name="Pisci">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ime" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Prezime" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Država" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Posudbe">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClanID" Type="int" Nullable="false" />
+    <Property Name="KnjigaID" Type="int" Nullable="false" />
+    <Property Name="Datum" Type="datetime" Nullable="false" />
+    <Property Name="DjelatnikID" Type="int" Nullable="false" />
+    <Property Name="Vraceno" Type="bit" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Zanr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Naziv" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Knjige_Pisci">
+    <End Role="Pisci" Type="Self.Pisci" Multiplicity="1" />
+    <End Role="Knjige" Type="Self.Knjige" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pisci">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Knjige">
+        <PropertyRef Name="PisacID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Knjige_Zanr">
+    <End Role="Zanr" Type="Self.Zanr" Multiplicity="1" />
+    <End Role="Knjige" Type="Self.Knjige" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zanr">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Knjige">
+        <PropertyRef Name="ZanrID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posudbe_Clanovi">
+    <End Role="Clanovi" Type="Self.Clanovi" Multiplicity="1" />
+    <End Role="Posudbe" Type="Self.Posudbe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clanovi">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Posudbe">
+        <PropertyRef Name="ClanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posudbe_Djelatnici">
+    <End Role="Djelatnici" Type="Self.Djelatnici" Multiplicity="1" />
+    <End Role="Posudbe" Type="Self.Posudbe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Djelatnici">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Posudbe">
+        <PropertyRef Name="DjelatnikID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posudbe_Knjige">
+    <End Role="Knjige" Type="Self.Knjige" Multiplicity="1" />
+    <End Role="Posudbe" Type="Self.Posudbe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Knjige">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Posudbe">
+        <PropertyRef Name="KnjigaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="KnjiznicaModelStoreContainer">
+    <EntitySet Name="Clanovi" EntityType="Self.Clanovi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Djelatnici" EntityType="Self.Djelatnici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Knjige" EntityType="Self.Knjige" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pisci" EntityType="Self.Pisci" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Posudbe" EntityType="Self.Posudbe" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zanr" EntityType="Self.Zanr" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Knjige_Pisci" Association="Self.FK_Knjige_Pisci">
+      <End Role="Pisci" EntitySet="Pisci" />
+      <End Role="Knjige" EntitySet="Knjige" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Knjige_Zanr" Association="Self.FK_Knjige_Zanr">
+      <End Role="Zanr" EntitySet="Zanr" />
+      <End Role="Knjige" EntitySet="Knjige" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posudbe_Clanovi" Association="Self.FK_Posudbe_Clanovi">
+      <End Role="Clanovi" EntitySet="Clanovi" />
+      <End Role="Posudbe" EntitySet="Posudbe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posudbe_Djelatnici" Association="Self.FK_Posudbe_Djelatnici">
+      <End Role="Djelatnici" EntitySet="Djelatnici" />
+      <End Role="Posudbe" EntitySet="Posudbe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posudbe_Knjige" Association="Self.FK_Posudbe_Knjige">
+      <End Role="Knjige" EntitySet="Knjige" />
+      <End Role="Posudbe" EntitySet="Posudbe" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

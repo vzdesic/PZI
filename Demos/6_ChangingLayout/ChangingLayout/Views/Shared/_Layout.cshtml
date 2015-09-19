@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html style="width:100%;height:100%">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script src="~/Scripts/Site.js"></script>
+
+    <script type="text/javascript">
+        //not needed, maybe:
+        //var list = document.querySelector('ul');
+        //list.addEventListener('click', function (ev) {
+        //    if (ev.target.tagName === 'LI') {
+        //        ev.target.classList.toggle('done');
+        //    }
+        //}, false);
+    </script>
+    
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+            $("#tabs-bottom").tabs();
+            $("#menu").menu();
+            $("#leftmenu").menu();
+
+            $(".resizableMainMenu").resizable({
+                handles: 'e',
+                minWidth: '200',
+                maxWidth: '500',
+                resize: function () {
+                    var remainingSpace = $(this).parent().width() - $(this).outerWidth(),
+                        divTwo = $(this).next(),
+                        divTwoWidth = remainingSpace - (divTwo.outerWidth() - divTwo.width());
+                    divTwo.width(divTwoWidth);
+                }
+            });
+
+            $("*[class^='module']").click(function () {
+                var moduleClass = "";
+                var classes = $(this).attr("class").split(" ");
+                $.each(classes, function (key, value) {
+                    if (value.substring(0, 6) == "module") {
+                        moduleClass = value;
+                    }
+                });
+
+                if ($("*[class^='" + moduleClass + "child" + "']:eq(0)").is(":visible")) {
+                    $("*[class^='" + moduleClass + "child" + "']").hide();
+                } else {
+                    $("*[class^='" + moduleClass + "child" + "']").show();
+                }
+
+                $(this).show();
+            });
+
+            $("input.fullPage").click(function () {
+                if ($("div#fullPage").hasClass("fullPage")) {
+                    $("div#fullPage").removeClass('fullPage');
+                    $(this).css({ 'top': '200px' });
+                    $(this).val("Full Page");
+                } else {
+                    $("div#fullPage").addClass('fullPage');
+                    $(this).css({ 'top': '20px' });
+                    $(this).val("Exit Full Page");
+                }
+            });
+
+            $(document).keyup(function(e) {
+                if (e.keyCode == 27) {  // escape key maps to keycode '27'
+                    if ($("div#fullPage").hasClass("fullPage")) {
+                        $("div#fullPage").removeClass('fullPage');
+                        $("input.fullPage").css({ 'top': '200px' });
+                        $("input.fullPage").val("Full Page");
+                    }
+                }   
+            });
+        });
+    </script>
+    <meta name="description" content="The description of my page" />
+</head>
+<body style="width:100%;height:100%">
+    <div style="width:100%;height:100%">
+        <div class="radius" style="background-color:red;width:100%;height:150px">
+            <div id="tabs" class="radius" style="width:100%;height:150px">
+                <ul>
+                    <li><a href="#tabs-1">TFS Integration</a></li>
+                    <li><a href="#tabs-2">Workflow Design</a></li>
+                    <li><a href="#tabs-3">Managing Test Cases</a></li>
+                    <li><a href="#tabs-4">Recording/Playback</a></li>
+                </ul>
+                <div id="tabs-1" style="overflow-y:scroll;height:100px;">
+                    <div style="display:inline;">
+                        <a href="#">Export Test Case to Excel</a>
+                    </div><br />
+                    <div style="display:inline;">
+                        <a href="#">Import Test Case from Excel</a>
+                    </div><br />
+                    <div style="display:inline;">
+                        <a href="#">TFS Settings</a>
+                    </div>
+                </div>
+                <div id="tabs-2" style="overflow-y:scroll;height:100px;">
+                    <p>
+
+                    </p>
+                </div>
+                <div id="tabs-3" style="overflow-y:scroll;height:100px;">
+                    <p>
+
+                    </p>
+                </div>
+                <div id="tabs-4" style="overflow-y:scroll;height:100px;">
+                    <div style="display:inline;">
+                        <a href="#">Start Recording</a>
+                    </div><br />
+                    <div style="display:inline;">
+                        <a href="#">Stop Recording</a>
+                    </div><br />
+                    <div style="display:inline;">
+                        <a href="#">Reply Recording</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="radius" style="background-color:blue;width:100%;height:30px">
+            <ul id="menu" style="height:30px">
+                <li style="display: inline-block;width:auto">Item 1</li>
+                <li style="display: inline-block;width:auto;">Item 2</li>
+                <li style="display: inline-block;width:auto;">Item 3
+                    <ul>
+                        <li style="display:block;width:100px;">Item 3-1</li>
+                        <li style="display:block;width:100px;">Item 3-2</li>
+                        <li style="display:block;width:100px;">-</li>
+                        <li style="display:block;width:100px;">Item 3-3</li>
+                        <li style="display:block;width:100px;">Item 3-4</li>
+                        <li style="display:block;width:100px;">Item 3-5</li>
+                    </ul>
+                </li>
+                <li style="display: inline-block;width:auto;">Item 4</li>
+                <li style="display: inline-block;width:auto;">Item 5</li>
+            </ul>
+        </div>
+        <div class="radius" style="background-color:yellow;width:100%;height:calc(100% - 230px);display:inline;">
+            <div class="radius resizableMainMenu" style="background-color:green;width:400px;height:calc(100% - 230px);float:left;">
+                <div id="tabs-bottom" class="tabs" style="height:100%;">
+                    <ul>
+                        <li><a href="#tabs-bottom-1">Modules/Commands</a></li>
+                        <li><a href="#tabs-bottom-2">Actions</a></li>
+                    </ul>
+                    <div id="tabs-bottom-1">
+                        <ul id="leftmenu">
+                            <li class="module1 ui-widget-header">Module 1</li>
+                            <li class="module1child">Command 1</li>
+                            <li class="module1child">Command 2</li>
+                            <li class="module1child">Command 3</li>
+                            <li class="module2 ui-widget-header">Module 2</li>
+                            <li class="module2child">Command 4</li>
+                            <li class="module2child">Command 5</li>
+                            <li class="module2child">Command 6</li>
+                        </ul>
+                    </div>
+                    <div id="tabs-bottom-2">
+                        <a href="#">Action 1</a><br />
+                        <a href="#">Action 2</a><br />
+                        <a href="#">Action 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="radius" style="background-color:white;width:100%;height:calc(100% - 230px);">
+                <div id="fullPage">
+                    @RenderBody()
+                    <input type="button" class="fullPage" value="Full Page" />
+                </div>
+            </div>
+        </div>
+        <div style="background-color:white;width:100%;height:50px;text-align:center;vertical-align:middle;border:solid 1px;">
+            @Html.Raw("@Copyrights")
+        </div>
+    </div>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

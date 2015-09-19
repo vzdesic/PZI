@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "View1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<RoutingDemo.Models.News>
+
+<h2>Arhiva na dan:  @Request["datum"]</h2>
+
+@{
+    foreach (var item in Model)
+    {
+        <text><div>@(((RoutingDemo.Models.News)item).ID)</div> </text>
+    }
+}
+
+

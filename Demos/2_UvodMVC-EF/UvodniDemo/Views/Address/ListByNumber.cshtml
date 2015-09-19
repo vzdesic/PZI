@@ -1,0 +1,13 @@
+﻿@model List<UvodniDemo.Address>
+
+@{
+    ViewBag.Title = "ListByNumber";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ListByNumber</h2>
+
+@foreach (var item in Model)
+{
+    @Html.Label(item.AddressLine1)<br />
+}

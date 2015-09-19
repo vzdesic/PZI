@@ -1,0 +1,3 @@
+Koraci Demoa:
+- Kreirati MVC projekt iz predloška - ASP.NET Web Aplication
+- Pojasniti glavne komponente, direktorije, ...

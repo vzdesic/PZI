@@ -1,0 +1,172 @@
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\RoutingDemo.dll.config
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\RoutingDemo.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\RoutingDemo.pdb
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Antlr3.Runtime.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.AspNet.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.Core.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OAuth.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OpenId.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\EntityFramework.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Data.Edm.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Data.OData.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Newtonsoft.Json.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Net.Http.Formatting.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Spatial.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Helpers.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.OData.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.WebHost.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Mvc.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Optimization.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Razor.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.Deployment.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.Razor.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\WebGrease.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\WebMatrix.Data.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\WebMatrix.WebData.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\EntityFramework.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Newtonsoft.Json.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Net.Http.Formatting.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Helpers.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.WebHost.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Mvc.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Razor.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.Deployment.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.Razor.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\WebMatrix.Data.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\WebMatrix.WebData.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.AspNet.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.Core.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OAuth.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OpenId.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.OData.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Data.Edm.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Data.OData.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\System.Spatial.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\de\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\es\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\it\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\de\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\es\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\fr\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\it\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\ja\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\ko\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\ru\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hans\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hant\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\obj\Debug\RoutingDemo.csprojResolveAssemblyReference.cache
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\obj\Debug\RoutingDemo.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\TODO - 4_Routing\RoutingDemo\RoutingDemo\obj\Debug\RoutingDemo.pdb
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\obj\Debug\RoutingDemo.csprojResolveAssemblyReference.cache
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\obj\Debug\RoutingDemo.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\RoutingDemo.dll.config
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\RoutingDemo.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\RoutingDemo.pdb
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Antlr3.Runtime.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.AspNet.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.Core.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OAuth.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OpenId.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\EntityFramework.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Data.Edm.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Data.OData.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Newtonsoft.Json.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Net.Http.Formatting.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Spatial.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Helpers.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.OData.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.WebHost.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Mvc.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Optimization.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Razor.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.Deployment.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.Razor.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\WebGrease.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\WebMatrix.Data.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\WebMatrix.WebData.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\EntityFramework.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Newtonsoft.Json.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Net.Http.Formatting.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Helpers.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.WebHost.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Mvc.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Razor.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.Deployment.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.WebPages.Razor.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\WebMatrix.Data.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\WebMatrix.WebData.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.AspNet.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.Core.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OAuth.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OpenId.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Web.Http.OData.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Data.Edm.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\Microsoft.Data.OData.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\System.Spatial.xml
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\de\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\es\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\it\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\de\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\es\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\fr\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\it\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\ja\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\ko\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\ru\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hans\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\bin\zh-Hant\System.Spatial.resources.dll
+D:\Privatno\VERN\Programiranje za Internet\MVC\Demos\4_Routing\RoutingDemo\RoutingDemo\obj\Debug\RoutingDemo.pdb
