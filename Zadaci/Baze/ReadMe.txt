@@ -1,0 +1,1 @@
+Obje korištene baze su u obliku skripte ovdje spremljene.
